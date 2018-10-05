@@ -28,3 +28,8 @@ http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html
 ## Github tutorial
 
 https://guides.github.com/activities/hello-world/
+
+## Learn Ruby the hard way
+
+- This book can be read free online and has a lot of information, since setting up ruby until starting a web game
+https://learnrubythehardway.org/book/

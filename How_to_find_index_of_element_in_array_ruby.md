@@ -1,4 +1,4 @@
-#How to find index of element in array ruby
+# How to find index of element in array ruby
 
 *We have an array of 9 numbers*
 a = [9,8,7,6,5,4,3,2,1]

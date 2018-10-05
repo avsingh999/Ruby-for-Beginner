@@ -9,10 +9,8 @@ Uninitialized instance variables have the value nil
 and produce warnings
 
 
-$global_variable = 10
-
-
-puts "Global variable is $global_variable"
+	$global_variable = 10
+	puts "Global variable is $global_variable"
 
 
 2.-Instance Variables:
@@ -23,28 +21,21 @@ limited to the object to which reference self
 
 Two different objects, even when they belong to the same class, can have different values ​​in their instance variables
 
-class Test
+	class Test
 
+	    	def set_example (n)
 
-    def set_example (n)
+			@example = n
 
+	   	end
 
-        @example = n
+	    	def set_example2 (n)
 
+	       	 @example2 = n
 
-    end
+	   	end
 
-
-    def set_example2 (n)
-
-
-        @example2 = n
-
-
-    end
-
-
-end
+	end
 
 
 
@@ -61,49 +52,33 @@ among descendants of the class or module in which the class variables are define
 Overriding class variables produce warnings
 
 
-class Workers
+	class Workers
+
+	    @@number_of_workers = 0
+
+	    def initialize (name, id)
+
+		@cust_name = name
+		@cust_id = id
+
+	    end
+
+	    def display_details()
+
+	    puts "Worker id #@cust_id"
+	    puts "Worker name #@cust_name"
+
+	    end
 
 
-    @@number_of_workers = 0
+	    def total_workers()
 
+	    @@number_of_workers += 1
+	    puts "Total is: #@@number_of_workers"
 
-    def initialize (name, id)
+	    end
 
-
-        @cust_name = name
-
-
-        @cust_id = id
-
-
-    end
-
-
-    def display_details()
-
-
-    puts "Worker id #@cust_id"
-
-
-    puts "Worker name #@cust_name"
-
-
-    end
-
-
-    def total_workers()
-
-
-    @@number_of_workers += 1
-
-
-    puts "Total is: #@@number_of_workers"
-
-
-    end
-
-
-end
+	end
 
 
 4.-Ruby constants:
@@ -113,25 +88,16 @@ Constants begin with an uppercase letter. Constants defined within a class or mo
 a class or module can be accessed globally.
 
 
-class Example
+	class Example
 
+	    VAR1 = 100
+	    VAR2 = 200
 
-    VAR1 = 100
+	    def show
 
+	       puts "Value of first Constant is #{VAR1}"
+	       puts "Value of second Constant is #{VAR2}"
 
-    VAR2 = 200
+	    end
 
-
-    def show
-
-
-       puts "Value of first Constant is #{VAR1}"
-
-
-       puts "Value of second Constant is #{VAR2}"
-
-
-    end
-
-
- end
+	 end

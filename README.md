@@ -1,5 +1,8 @@
 # Ruby
-![alt text](http://www.gifmania.se/Animerade-GIF-Bilder-Objekt/Gif-Animationer-Smycken/Animerad-Gif-Adelstenar/Rubiner/Rubiner-88757.gif)
+
+<p align="center">
+  <img src="http://www.gifmania.se/Animerade-GIF-Bilder-Objekt/Gif-Animationer-Smycken/Animerad-Gif-Adelstenar/Rubiner/Rubiner-88757.gif" />
+</p>
 
 Ruby is a scripting language designed by Yukihiro Matsumoto, also known as Matz. It runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX.
 
@@ -17,5 +20,11 @@ This repostory contain a simple example, codes in ruby. It will help to beginner
 
 ## Help
 - go to this link it will help to you for contribution
+
 http://ruby-for-beginners.rubymonstas.org/index.html 
+
 http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html
+
+## Github tutorial
+
+https://guides.github.com/activities/hello-world/

@@ -32,3 +32,8 @@ https://www.codecademy.com/learn/learn-ruby (need an account to access the cours
 ## Github tutorial
 
 https://guides.github.com/activities/hello-world/
+
+## Learn Ruby the hard way
+
+- This book can be read free online and has a lot of information, since setting up ruby until starting a web game
+https://learnrubythehardway.org/book/

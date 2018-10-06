@@ -1,6 +1,7 @@
 
-## Example 1
+## While Loop
 
+```ruby
 #!/usr/bin/ruby
 $i = 0
 $num = 5
@@ -9,10 +10,10 @@ while $i < $num  do
    puts("Inside the loop i = #$i" )
    $i +=1
 end
+```
 
-
-## Example 2
-
+## Do-While Loop
+```ruby
 #!/usr/bin/ruby
 $i = 0
 $num = 5
@@ -20,9 +21,10 @@ begin
    puts("Inside the loop i = #$i" )
    $i +=1
 end while $i < $num
+```
 
-
-## Example 3  
+## While-Do Loop  
+```ruby
 #!/usr/bin/ruby
 
 $i = 0
@@ -32,12 +34,13 @@ until $i > $num  do
    puts("Inside the loop i = #$i" )
    $i +=1;
 end
+```
+# For Loop
 
-# Ruby for Statement
-
-
+```ruby
 #!/usr/bin/ruby
 
 for i in 0..5
    puts "Value of local variable is #{i}"
 end
+```

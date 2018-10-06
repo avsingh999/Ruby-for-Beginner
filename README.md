@@ -21,9 +21,13 @@ This repostory contain a simple example, codes in ruby. It will help to beginner
 ## Help
 - go to this link it will help to you for contribution
 
-http://ruby-for-beginners.rubymonstas.org/index.html 
+http://ruby-for-beginners.rubymonstas.org/index.html
 
 http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html
+
+https://www.learnrubyonline.org/ (great interactive course)
+
+https://www.codecademy.com/learn/learn-ruby (need an account to access the course)
 
 ## Github tutorial
 

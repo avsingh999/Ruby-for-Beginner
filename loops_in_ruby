@@ -1,9 +1,0 @@
-Loops in Ruby are used to execute the same block of code a specified number of times. This chapter details all the loop statements supported by Ruby.
-
-$i = 0
-$num = 5
-
-while $i < $num  do
-   puts("Inside the loop i = #$i" )
-   $i +=1
-end

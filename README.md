@@ -42,6 +42,10 @@ https://guides.github.com/activities/hello-world/
 https://learnrubythehardway.org/book/
 
 
+## For Loop in Ruby
+https://github.com/avsingh999/Ruby-for-Beginner/blob/master/For_loop_in_ruby.md
+
+
 ## Functions in Ruby
 
 https://github.com/avsingh999/Ruby-for-Beginner/blob/master/Functions-in-Ruby

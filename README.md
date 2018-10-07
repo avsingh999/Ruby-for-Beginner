@@ -11,6 +11,8 @@ Ruby is a scripting language designed by Yukihiro Matsumoto, also known as Matz.
 This repostory contain a simple example, codes in ruby. It will help to beginner to  learn ruby in begining.
 
 - [Print in ruby](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/How_to_print_in_ruby.md)
+- [Array in ruby](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/Array_in_Ruby.md)
+
 
 ## How to Contribute
 

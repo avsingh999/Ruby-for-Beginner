@@ -40,3 +40,6 @@ https://guides.github.com/activities/hello-world/
 
 - This book can be read free online and has a lot of information, since setting up ruby until starting a web game
 https://learnrubythehardway.org/book/
+
+## For Loop in Ruby
+https://github.com/avsingh999/Ruby-for-Beginner/blob/master/For_loop_in_ruby.md

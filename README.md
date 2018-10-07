@@ -42,6 +42,11 @@ https://guides.github.com/activities/hello-world/
 https://learnrubythehardway.org/book/
 
 
+## Functions in Ruby
+
+https://github.com/avsingh999/Ruby-for-Beginner/blob/master/Functions-in-Ruby
+
 ## Classes in Ruby
 
 https://github.com/avsingh999/Ruby-for-Beginner/blob/master/classes_in_ruby.md
+

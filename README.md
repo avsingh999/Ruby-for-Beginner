@@ -46,6 +46,12 @@ https://learnrubythehardway.org/book/
 ## Create issue
 if you want add any information about ruby then create a issue and send a pr for that issue
 
+## Author
+### Avkaran singh
+
+[<img src="https://image.flaticon.com/icons/svg/34/34238.svg" width="30" padding="10">](https://twitter.com/avsingh07492100)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="30" padding="10">](https://github.com/avsingh999)
+[<img src="https://cdn3.iconfinder.com/data/icons/transparent-on-dark-grey/500/icon-04-512.png" width="30" padding="10">](https://www.instagram.com/avsingh999/)
 thank you
 
 :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: 

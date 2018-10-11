@@ -24,17 +24,17 @@ This repostory contain a simple example, codes in ruby. It will help to beginner
 ## Help
 - go to this link it will help to you for contribution
 
-http://ruby-for-beginners.rubymonstas.org/index.html
+- http://ruby-for-beginners.rubymonstas.org/index.html
 
-http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html
+- http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html
 
-https://www.learnrubyonline.org/ (great interactive course)
+- https://www.learnrubyonline.org/ (great interactive course)
 
-https://www.codecademy.com/learn/learn-ruby (need an account to access the course)
+- https://www.codecademy.com/learn/learn-ruby (need an account to access the course)
 
 ## Github tutorial
 
-https://guides.github.com/activities/hello-world/
+- https://guides.github.com/activities/hello-world/
 
 ## Learn Ruby the hard way
 
@@ -42,15 +42,10 @@ https://guides.github.com/activities/hello-world/
 https://learnrubythehardway.org/book/
 
 
-## For Loop in Ruby
-https://github.com/avsingh999/Ruby-for-Beginner/blob/master/For_loop_in_ruby.md
 
+## Create issue
+if you want add any information about ruby then create a issue and send a pr for that issue
 
-## Functions in Ruby
+thank you
 
-https://github.com/avsingh999/Ruby-for-Beginner/blob/master/Functions-in-Ruby
-
-## Classes in Ruby
-
-https://github.com/avsingh999/Ruby-for-Beginner/blob/master/classes_in_ruby.md
-
+:heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: 

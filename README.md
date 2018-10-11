@@ -46,7 +46,6 @@ https://learnrubythehardway.org/book/
 ## Create issue
 if you want add any information about ruby then create a issue and send a pr for that issue
 
-## Author
 ### Avkaran singh
 
 [<img src="https://image.flaticon.com/icons/svg/34/34238.svg" width="30" padding="10">](https://twitter.com/avsingh07492100)

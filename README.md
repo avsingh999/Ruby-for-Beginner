@@ -42,9 +42,9 @@ This repostory contain a simple example, codes in ruby. It will help to beginner
 https://learnrubythehardway.org/book/
 
 
-
 ## Create issue
 if you want add any information about ruby then create a issue and send a pr for that issue
+
 
 ### Avkaran singh
 

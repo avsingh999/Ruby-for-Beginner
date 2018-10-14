@@ -19,3 +19,8 @@ def mergesort(list)
     end
     sorted.concat(left).concat(right)
   end
+
+  list = [20,3,10,17,100, 76, 61, 45]
+  print mergesort(list)
+  print "\n"
+  

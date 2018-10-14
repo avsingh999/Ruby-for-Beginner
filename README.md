@@ -39,7 +39,7 @@ This repository contains some simple example codes in ruby. It will help a begin
 #### Data Structures
 - [Array in ruby](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/Array_in_Ruby.md)
 - [2D Arrays](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/create_2d_array_in_ruby.md)
-- [Index of Element in Array](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/'How to find index of element in array ruby.md')
+- [Index of Element in Array](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/How to find index of element in array ruby.md)
 - [Array to String](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/combining_an_array_into_one_string.md)
 - [Maps](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/how_to_use_map_in_ruby.md)
 - [Hash Tables](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/hash.md)

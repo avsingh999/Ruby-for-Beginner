@@ -9,8 +9,50 @@ Ruby is a scripting language designed by Yukihiro Matsumoto, also known as Matz.
 ### Ruby-for-Beginner
 This repository contains some simple example codes in ruby. It will help a beginner to learn ruby.
 
+#### Getting Started
+- [Installing Ruby](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/how_to_install_ruby.md)
+
+####  General
+- [Variables](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/Ruby_Variables.md)
+- [Functions](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/Functions-in-Ruby)
+- [Classes](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/classes_in_ruby.md)
+- [For Loops](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/For_loop_in_ruby.md)
+- [Loops](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/loops_in_ruby.md)
+- [If/Else](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/if_else_in_ruby.md)
+- [Code Blocks](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/Block_in_Ruby.md)
+- [Random Number Generator](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/random_number_generator_in_ruby.md)
+- [Comments](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/Comments_in_Ruby.md)
+- [Current Date and Time](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/Getting_current_date_and_time.md)
+
+#### IO
+- [User Input](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/create_input_in_ruby.md)
 - [Print in ruby](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/How_to_print_in_ruby.md)
+
+#### Searching and Sorting
+- [Binary Search](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/binary_search.rb)
+- [Insertion Search](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/insertion_search.rb)
+- [Heap Sort](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/heap_sort.rb)
+- [Bubble Sort](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/bubble_sort.rb)
+- [Insertion Sort](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/insertion_sort.rb)
+- [Merge Sort](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/merge_sort.rb)
+
+#### Data Structures
 - [Array in ruby](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/Array_in_Ruby.md)
+- [2D Arrays](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/create_2d_array_in_ruby.md)
+- [Index of Element in Array](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/'How to find index of element in array ruby.md')
+- [Array to String](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/combining_an_array_into_one_string.md)
+- [Maps](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/how_to_use_map_in_ruby.md)
+- [Hash Tables](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/hash.md)
+#### Strings
+- [String Length](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/Find_length_of_string_in_ruby.md)
+- [String Concatenation](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/String_Concatenation.md)
+- [String Interpolation](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/String_Interpolation_in_ruby.md)
+- [Index of Character in String](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/How_to_find_index_in_string_ruby.md)
+- [String Split](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/split_string_in_ruby.md)
+- [String Split 2](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/split_strings.md)
+- [String Substitution](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/sub_and_gsub_in_ruby.md)
+- [String Reversal](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/reverse_of_string_in_ruby.md)
+- [Substring](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/substring_in_ruby.md)
 
 ## How to Contribute
 

@@ -1,5 +1,4 @@
 class HeapSort
-
   def initialize(elements)
     @elements = elements
   end
@@ -26,20 +25,16 @@ class HeapSort
     @elements.size
   end
 
-  def heapify(root, position)
-    loop do
-      child = root * 2 + 1
-      break if child > position
-      if child + 1 <= position and @elements[child] < @elements[child + 1]
-        child += 1
-      end
-      if @elements[root] < @elements[child]
-        exchange(root, child)
-        root = child
-      else
-        break
-      end
-    end
+  def heapify(root, max)
+    child = root * 2 + 1
+    return if child > max
+
+    child += 1 if child < max && @elements[child] < @elements[child + 1]
+
+    return if @elements[root] >= @elements[child]
+
+    exchange(root, child)
+    heapify(child, max)
   end
 
   def exchange(source, target)

@@ -6,6 +6,7 @@
 
 Ruby is a scripting language designed by Yukihiro Matsumoto, also known as Matz. It runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX.
 
+[![Join the chat at https://gitter.im/publiclab/publiclab](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/avsingh999)
 ### Ruby-for-Beginner
 This repository contains some simple example codes in ruby. It will help a beginner to learn ruby.
 

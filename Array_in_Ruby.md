@@ -3,7 +3,8 @@ Method 1: To create an array in a Ruby program, use square brackets: ([]), and s
 
 For example, create an array of sharks and assign it to a variable, like this:
 
-```sharks = ["Hammerhead", "Great White", "Tiger"]
+```
+sharks = ["Hammerhead", "Great White", "Tiger"]
 
 print sharks
 
@@ -22,7 +23,8 @@ However, notice that the %w{} method lets you skip the quotes and the commas.
 
 Arrays are often used to group together lists of similar data types, but in Ruby, arrays can contain any value or a mix of values, including other arrays. Here's an example of an array that contains a string, a nil value, an integer, and an array of strings:
 
-```record = [
+```
+record = [
     "Sammy",
     null,
     7,
@@ -34,7 +36,8 @@ Arrays are often used to group together lists of similar data types, but in Ruby
 ```
 Method 3: If you want to create an array of specific size, we have to initialize it with "new" class method.
 
-```for eg: names = Array.new(<length of array>)
+```
+for eg: names = Array.new(<length of array>)
 
 Input:
 names = Array.new(20) #length of an Array is 20

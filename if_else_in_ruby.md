@@ -4,13 +4,15 @@ The Ruby language has a very simple control structure that is easy to read and f
 
 ###If syntax:
 
-```if var == 10
+```
+if var == 10
   print “Variable is 10”
 end
 ```
 ###If Else Syntax:
 
-```if var == 10
+```
+if var == 10
   print “Variable is 10”
 else
   print “Variable is something else”
@@ -20,7 +22,8 @@ end
 
 Here’s the key difference between Ruby and most other languages. Note that “else if” is actually spelled “elsif” without the e.
 
-```if var == 10
+```
+if var == 10
   print “Variable is 10”
 elsif var == “20”
   print “Variable is 20”

@@ -1,4 +1,5 @@
-```def bubble_sort(list)
+```
+def bubble_sort(list)
   return list if list.size <= 1 # already sorted
   loop do
     swapped = false

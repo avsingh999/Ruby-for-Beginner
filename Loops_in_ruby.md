@@ -11,7 +11,8 @@ Let's try an example of a loop by creating a file named loop_example.rb
 
 # loop_example.rb
 
-```loop do
+```
+loop do
   puts "This will keep printing until you hit Ctrl + c"
 end
 ```
@@ -20,7 +21,8 @@ Now we can run ruby loop_example.rb on the terminal and see what happens.
 
 You'll notice the same statement keeps printing on the terminal. You'll have to interrupt with a Ctrl + c to stop it.
 
-```This will keep printing until you hit Ctrl + c
+```
+This will keep printing until you hit Ctrl + c
 This will keep printing until you hit Ctrl + c
 This will keep printing until you hit Ctrl + c
 This will keep printing until you hit Ctrl + c
@@ -36,7 +38,8 @@ Let's look at a more useful example with the break keyword by creating a file na
 
 # useful_loop.rb
 
-```i = 0
+```
+i = 0
 loop do
   i += 1
   puts i
@@ -45,7 +48,8 @@ end
 ```
 When you run useful_loop.rb in your terminal, the output should be:
 
-```$ ruby useful_loop.rb
+```
+$ ruby useful_loop.rb
 1
 ```
 The break keyword allows us to exit a loop at any point, so any code after a break will not be executed. Note that break will not exit the program, but only exit the loop and execution will continue on from after the loop.
@@ -54,7 +58,8 @@ Next, let's look at adding conditions within a loop by printing all even numbers
 
 # conditional_loop.rb
 
-```i = 0
+```
+i = 0
 loop do
   i += 2
   puts i
@@ -65,7 +70,8 @@ end
 ```
 Here's the output when we run the file:
 
-```$ ruby conditional_loop.rb
+```
+$ ruby conditional_loop.rb
 2
 4
 6
@@ -78,7 +84,8 @@ We'll talk explicitly about using conditionals within a loop later. Similar to h
 
 # next_loop.rb
 
-```i = 0
+```
+i = 0
 loop do
   i += 2
   if i == 4
@@ -92,7 +99,8 @@ end
 ```
 And here's the output when we run the file.
 
-```$ ruby next_loop.rb
+```
+$ ruby next_loop.rb
 2
 6
 8

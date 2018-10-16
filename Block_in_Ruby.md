@@ -4,7 +4,8 @@
 ## Example 1
 
 #!/usr/bin/ruby
-```def test
+```
+def test
    puts "You are in the method"
    yield
    puts "You are again back to the method"
@@ -15,7 +16,8 @@ test {puts "You are in the block"}
 ## Example 2
 #!/usr/bin/ruby
 
-```def test
+```
+def test
    yield 5
    puts "You are in the method test"
    yield 100
@@ -24,7 +26,8 @@ test {|i| puts "You are in the block #{i}"}
 ```
 ## Example 3
 
-```def one_two_three
+```
+def one_two_three
   yield 1
   yield 2
   yield 3

@@ -1,4 +1,4 @@
-def bubble_sort(list)
+```def bubble_sort(list)
   return list if list.size <= 1 # already sorted
   loop do
     swapped = false
@@ -15,3 +15,4 @@ end
 
 nums = [22,66,77,4,44,457,5,7,24,392,22,8,88,77,33,55,118,99,6,1,62,29,14,139,2,13]
 bubble_sort(nums)
+```

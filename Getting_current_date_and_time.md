@@ -2,32 +2,33 @@
 
 Following is the simple example to get current date and time:
 
-> time1 = Time.new
+```> time1 = Time.new
 
 > puts "Current Time : " + time1.inspect
+```
 
+`Time.now` is a synonym:
 
-Time.now is a synonym:
-
-> time2 = Time.now
+```> time2 = Time.now
 
 > puts "Current Time : " + time2.inspect
-
+```
 
 This will produce the following result:
 
+```> Current Time : Mon Jun 02 12:02:39 -0700 2008
 > Current Time : Mon Jun 02 12:02:39 -0700 2008
-> Current Time : Mon Jun 02 12:02:39 -0700 2008
-
+```
 
 We can use Time object to get various components of date and time. Following is the example showing the same:
 
-> time = Time.new
 
 ## Components of a Time
+```> time = Time.new
+
 > puts "Current Time : " + time.inspect
 
-> puts time.year    # => Year of the date 
+> puts time.year    # => Year of the date
 
 > puts time.month   # => Month of the date (1 to 12)
 
@@ -46,3 +47,4 @@ We can use Time object to get various components of date and time. Following is 
 > puts time.usec    # => 999999: microseconds
 
 > puts time.zone    # => "UTC": timezone name
+```

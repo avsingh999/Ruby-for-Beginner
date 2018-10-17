@@ -1,5 +1,6 @@
+## Loops
 
-## While Loop
+### 1. While Loop
 
 ```ruby
 #!/usr/bin/ruby
@@ -12,7 +13,7 @@ while $i < $num  do
 end
 ```
 
-## Do-While Loop
+### 2. Do-While Loop
 ```ruby
 #!/usr/bin/ruby
 $i = 0
@@ -23,7 +24,7 @@ begin
 end while $i < $num
 ```
 
-## While-Do Loop  
+### 3. While-Do Loop  
 ```ruby
 #!/usr/bin/ruby
 
@@ -35,7 +36,8 @@ until $i > $num  do
    $i +=1;
 end
 ```
-# For Loop
+
+### 4. For Loop
 
 ```ruby
 #!/usr/bin/ruby

@@ -3,6 +3,7 @@
 # You assign a name to a block
 ## Example 1
 
+``` ruby
 #!/usr/bin/ruby
 def test
    puts "You are in the method"
@@ -11,23 +12,27 @@ def test
    yield
 end
 test {puts "You are in the block"}
+```
 
 ## Example 2
+``` ruby
 #!/usr/bin/ruby
-
 def test
    yield 5
    puts "You are in the method test"
    yield 100
 end
 test {|i| puts "You are in the block #{i}"}
+```
 
 ## Example 3
-
+``` ruby
 def one_two_three
   yield 1
   yield 2
   yield 3
 end
 one_two_three { |number| puts number * 10 }
+
 # 10, 20, 30
+```

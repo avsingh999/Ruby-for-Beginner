@@ -23,3 +23,4 @@ words_str = 'Ruby   -  On-  Rails'
 words_arr = words_str.split(/\s*-\s*/)
 puts words_arr
 # ["Ruby", "On", "Rails"]
+```

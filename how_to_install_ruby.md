@@ -24,7 +24,7 @@ To install ruby in linux we will use rvm because it is super cool, with rvm we c
 They have separate gemfiles.
 
 We will use gpg which is an application to generate public encryption keys using opengpgp as a protocol,
-rvm asks us to use a public key so we copy and paste the public key that provides us [rvm] (http://rvm.io/rvm/install):
+rvm asks us to use a public key so we copy and paste the public key that provides us [rvm](http://rvm.io/rvm/install):
 
 ```sh
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB

@@ -7,18 +7,18 @@ An option for returning multiple objects is to return an Array that hold the thi
 
 ##Basic Examples:
 
-```
-	def my_function
-  		return "something"
-	end
+```ruby
+def my_function
+  return "something"
+end
 ```
 
 You can pass arguments that will be used within the method like this
 
-```
-	def sum(a, b)
-  		return a + b
-	end
+```ruby
+def sum(a, b)
+  return a + b
+end
 ```
 
 This method return the sum of a plus b arguments
@@ -26,12 +26,12 @@ This method return the sum of a plus b arguments
 ##Return is optional, but...
 Use of the return statement is optional in Ruby. However, if not used, the method will return the value that is returned by the last evaluated statement in that method.
 
-```
-	def no_return(number)
- 		number + 2
-	end
+```ruby
+def no_return(number)
+  number + 2
+end
 
-	p no_return(3) 
+p no_return(3) 
 ```
 
 The function no_return() returns 5 because by default, Ruby methods return the value of the last expression evaluationed in the method. 

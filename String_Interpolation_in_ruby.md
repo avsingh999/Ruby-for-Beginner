@@ -28,13 +28,16 @@ Here, we see that the literal \n is not printed, but an actual newline is printe
 **String Interpolation**
 
 When it comes to the discussion of escape character we cannot forget the topic of String Interpolation. Double quotes are interpolated, meaning the code in #{} is evaluated as Ruby code and single quotes are treated as literal i.e. the code is not being evaluated as Ruby code. For Example:
-
-`my_string = "Ruby on Rails"`
-`puts "I am a #{my_string} Developer"`
-`#Output: I am a Ruby on Rails Developer`
+```ruby
+my_string = "Ruby on Rails"
+puts "I am a #{my_string} Developer"
+#Output: I am a Ruby on Rails Developer
+``` 
 
 and the code snippet with single quotes is shown below:
 
-`my_string = “Ruby on Rails”`
-`puts ‘I am a #{my_string} Developer’`
-`#Output: I am a #{my_string} Developer.`
+```ruby
+my_string = “Ruby on Rails”
+puts ‘I am a #{my_string} Developer’
+#Output: I am a #{my_string} Developer.
+```

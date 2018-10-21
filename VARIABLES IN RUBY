@@ -28,3 +28,93 @@ puts large_number
 apples = 1
 puts apples
 However, also note that it makes sense to try and pick names that reveal your intention. The chapter Using the right words at the end of this book will talk more about this. Feel free to jump ahead if you are curious. In short, the first example using a as a name would be frowned upon because it’s wasting the opportunity to use a meaningful name. The second and third examples are just trying to be stupid, and pick names that don’t match the “thing” (the object, number 1) at all.
+
+## Types of variables in ruby
+ In ruby you can define variables in the following category
+ 
+ 1. Global
+ 2. Instance
+ 3. Class
+ 4. Local
+ 5. Ruby Constants
+
+**Global variables** - Their name starts with `$`
+```
+ $global_var = 10
+ class C1
+   def show_global
+     puts "C1: The global variable- #{$global_var}"
+   end
+ end
+ 
+class C2
+  def change_and_show_global
+    $global_var = -9
+    puts "C2: The global variable- #{$global_var}"
+  end
+end
+C1.new.show_global # => 10
+C2.new.change_and_show_global # => -9
+C1.new.show_global # => -9
+```
+Use of global variables is discouraged as they value can be changed anywhere and can have sideffects.
+
+**Instance variable** -  Their name starts with `@` sign. Uninitialized instance variables have the value _nil_
+```
+ class Developer
+  def initialize(name, skill)
+    @name = name
+    @skill = skill
+  end
+   def introduction
+     puts "I am #{@name}, my skills includes {@skill}"
+   end
+ end
+
+vikas = developer.new('vikas', 'ruby')
+vikas.introduction # => I am vikas, my skills includes ruby
+```
+
+**Class variables** - They starts with `@@` 
+```
+class Developer
+  @@dev_count = 0 # Class variable
+  def initialize(name, skill)
+    @@dev_count += 1
+    @name = name
+    @skill = skill
+  end
+   def introduction
+     puts "I am #{@name}, my skills includes {@skill}"
+   end
+   
+  def self.dev_count
+    puts @@dev_count
+  end
+ end
+
+vikas = developer.new('vikas', 'ruby')
+karan = developer.new('vikas', 'javascript')
+Developer.dev_count # => 2
+```
+
+**Local Variables** - Their name starts with a lowercase letter or `_`
+They have a scope within a `class`, `module`, `def-end`, or `do-end` block.
+
+**Ruby Constants** -  Their name starts with  an uppercase letter. They are defined to indicate a value that should not be altered in the program.
+
+```
+class Vote
+  MIN_AGE = 18
+
+  def cast_vote(voter, party)
+   if voter.age >= Vote::MIN_AGE
+     party.vote + = 1
+     # cast +1 vote to the `party`
+   end
+  end
+end
+
+# Here MIN_AGE is defined as constant and its value should not be altered anywhere in the program
+```
+

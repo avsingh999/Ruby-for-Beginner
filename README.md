@@ -94,4 +94,4 @@ If you want to add any information about ruby, create an issue and send a pr
 
 Thank you
 
-:heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: 
+:heart: :heart: :heart:

@@ -35,7 +35,7 @@ record = [
 ```
 **Method 3:** If you want to create an array of specific size, we have to initialize it with "new" class method.
 
-for eg: `ames = Array.new(<length of array>)``
+for eg: `names = Array.new(<length of array>)``
 
 Input:
 ``` ruby
@@ -47,4 +47,21 @@ Output:
 ``` ruby
 20
 20
+```
+
+**Method 4:** With "tap" method is possible to create array. This method send self to the block and return itself.
+
+for eg: `[].tap { |this_array| this_array << 1 }``
+
+Input:
+``` ruby
+[].tap do |this_array|
+  [1, 2, 3].each do |number| 
+    this_array << number ** 2
+  end
+end
+```
+Output:
+``` ruby
+[1, 4, 9]
 ```

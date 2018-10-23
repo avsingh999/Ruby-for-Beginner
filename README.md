@@ -17,6 +17,7 @@ This repository contains some simple example codes in ruby. It will help a begin
 - [Variables](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/Ruby_Variables.md)
 - [Functions](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/Functions-in-Ruby)
 - [Classes](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/classes_in_ruby.md)
+- [Objects](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/object_in_ruby.md)
 - [For Loops](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/For_loop_in_ruby.md)
 - [Loops](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/loops_in_ruby.md)
 - [If/Else](https://github.com/avsingh999/Ruby-for-Beginner/blob/master/if_else_in_ruby.md)

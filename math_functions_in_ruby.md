@@ -29,7 +29,7 @@ There is a list of methods with their description
 | Math.tanh, Math.tanh!                          | Hyperbolic tangent                                                   |
 
 
-## Some examples 
+##Some examples
 
 To perform a square root
 ```

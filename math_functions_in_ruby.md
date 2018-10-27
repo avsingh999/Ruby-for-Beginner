@@ -3,6 +3,7 @@
 ## Math methods
 
 There is a list of methods with their description
+
 | *Method name*         | *Description* |
 |-----------------------|---------------|
 | Math.acos, Math.acos! | Arc cosine    |

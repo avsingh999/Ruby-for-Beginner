@@ -1,7 +1,7 @@
 # Ruby
 
 <p align="center">
-  <img src="http://www.gifmania.se/Animerade-GIF-Bilder-Objekt/Gif-Animationer-Smycken/Animerad-Gif-Adelstenar/Rubiner/Rubiner-88757.gif" />
+  <img width='300px;' src="http://www.gifmania.se/Animerade-GIF-Bilder-Objekt/Gif-Animationer-Smycken/Animerad-Gif-Adelstenar/Rubiner/Rubiner-88757.gif" />
 </p>
 
 Ruby is a scripting language designed by Yukihiro Matsumoto, also known as Matz. It runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX.
